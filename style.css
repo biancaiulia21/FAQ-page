@@ -282,7 +282,7 @@ h2:hover{
     .back__img img{
         position: fixed;
         width: 100%;    
-        height: auto;   
+        height: 200px;   
         top:0;    
     }
     
