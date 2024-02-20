@@ -24,7 +24,7 @@ body{
 #background2{display:none;}
 .back__img{
     display: block;
-    height: 160px;
+    height: 140px;
     width: 100%;
        
 }
@@ -32,7 +32,7 @@ body{
 .back__img img{
     position: fixed;
     width: 100%;
-    top:-50px;
+    top:-100px;
  
 }
 
@@ -44,7 +44,7 @@ body{
     width: 100%;
     max-width: 600px;
     background: var(--white);
-    margin-block: 4rem;
+    margin-block: auto;
     border-radius: .75em;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
@@ -216,13 +216,12 @@ h2:hover{
     
     .back__img{
         display: block;
-        height: 98px;
+        position: absolute;        
         width: 100%;
            
     }
     
     .back__img img{
-        position: fixed;
         width: 100%;
         top:-10px;
      
@@ -230,13 +229,14 @@ h2:hover{
     .container{
         
         position: relative;
+        top:8rem;
         display: grid;
         place-items: center;
         justify-content: center;
-        width: 100%;
-        max-width: 600px;
+        margin:auto;
+        width: 37.5rem;
         background: var(--white);
-        margin-block: 4rem;
+        
         border-radius: .75em;
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     
@@ -245,7 +245,7 @@ h2:hover{
     .faq__page{
         display: flex;
         flex-direction: column;
-        width: 600px;
+        width: 37.5rem;
         padding: 3rem 2rem 3rem 2rem;
        
     }
