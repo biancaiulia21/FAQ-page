@@ -256,10 +256,14 @@ h2:hover{
 @media screen and (max-width:375px) {
     #background1{display:none;}
     #background2{display:block;}
+    body{
+        height: 100vw;
+    }
 
     .container{
         max-width: 320px;
         border-radius: .55em;
+        top:8rem;
         
     }
     .faq__page{
@@ -277,7 +281,8 @@ h2:hover{
     
     .back__img img{
         position: fixed;
-        width: 100%;       
+        width: 100%;    
+        height: auto;   
         top:0;    
     }
     
@@ -322,3 +327,4 @@ h2:hover{
         
     }
 }
+
