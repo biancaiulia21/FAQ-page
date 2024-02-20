@@ -24,16 +24,15 @@ body{
 #background2{display:none;}
 .back__img{
     display: block;
-    height: 100px;
+    height: 160px;
     width: 100%;
-    
-    
+       
 }
 
 .back__img img{
     position: fixed;
     width: 100%;
-    top:-100px;
+    top:-50px;
  
 }
 
@@ -43,7 +42,7 @@ body{
     place-items: center;
     justify-content: center;
     width: 100%;
-    max-width: 550px;
+    max-width: 600px;
     background: var(--white);
     margin-block: 4rem;
     border-radius: .75em;
@@ -54,8 +53,8 @@ body{
 .faq__page{
     display: flex;
     flex-direction: column;
-    width: 550px;
-    padding: 3rem 2rem 3rem 2rem;
+    width: 600px;
+    padding: 4rem 3rem 4rem 3rem;
    
 }
 .page__title{
@@ -68,7 +67,7 @@ body{
 }
 
 .page__title h1{
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: var(--Darkpurple);
 }
 h2{
@@ -215,6 +214,19 @@ h2:hover{
 
 @media screen and (max-width: 1440px) {
     
+    .back__img{
+        display: block;
+        height: 98px;
+        width: 100%;
+           
+    }
+    
+    .back__img img{
+        position: fixed;
+        width: 100%;
+        top:-10px;
+     
+    }
     .container{
         
         position: relative;
@@ -222,7 +234,7 @@ h2:hover{
         place-items: center;
         justify-content: center;
         width: 100%;
-        max-width: 550px;
+        max-width: 600px;
         background: var(--white);
         margin-block: 4rem;
         border-radius: .75em;
@@ -233,8 +245,8 @@ h2:hover{
     .faq__page{
         display: flex;
         flex-direction: column;
-        width: 550px;
-        padding: 2rem 2rem 2rem 2rem;
+        width: 600px;
+        padding: 3rem 2rem 3rem 2rem;
        
     }
        
@@ -244,7 +256,19 @@ h2:hover{
     #background1{display:none;}
     #background2{display:block;}
 
-    .back__img{
+    .container{
+        max-width: 320px;
+        border-radius: .55em;
+        
+    }
+    .faq__page{
+        display: flex;
+        max-width: 320px;
+        flex-direction: column;
+        padding: 2rem 1.2rem 2rem 1.2rem;
+    }
+    
+     .back__img{
         display: block;
         height: 70px;
         width: 100%;  
@@ -255,16 +279,8 @@ h2:hover{
         width: 100%;       
         top:0;    
     }
-    .container{
-                
-        max-width: 330px;
-        border-radius: .55em;
-    }
-    .faq__page{
-        display: flex;
-        flex-direction: column;
-        padding: 1.5rem;
-    }
+    
+    
     .page__title{
         padding-bottom: 1.5rem;
         
@@ -285,7 +301,7 @@ h2:hover{
         padding-bottom: 9.5rem;
     }
     .more_2.active{
-        padding-bottom: 7.5rem;
+        padding-bottom: 8.5rem;
     }
     .more_3.active{
         padding-bottom: 7rem;
@@ -293,5 +309,9 @@ h2:hover{
     .more_4.active{
         padding-bottom: 8.5rem;
     }
-    
+
+    .b1.active{
+        margin-top: 2rem;
+        
+    }
 }
