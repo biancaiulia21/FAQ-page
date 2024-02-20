@@ -47,6 +47,7 @@ body{
     margin-block: auto;
     border-radius: .75em;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
 
 }
 
@@ -280,6 +281,12 @@ h2:hover{
         top:0;    
     }
     
+    .back__img{
+        display: block;
+        height: 100%;
+        width: 100%;
+           
+    }
     
     .page__title{
         padding-bottom: 1.5rem;
