@@ -1,0 +1,297 @@
+*{
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --white: hsl(0, 0%, 100%);
+    --Lightpink: hsl(275, 100%, 97%);
+    --Grayishpurple: hsl(292, 16%, 49%);
+    --Darkpurple: hsl(292, 42%, 14%);
+}
+
+body{
+    display: grid;
+    place-items: center;
+    background: var(--Lightpink);
+    width: 100%;
+    
+}
+#background1{display:block;}
+#background2{display:none;}
+.back__img{
+    display: block;
+    height: 100px;
+    width: 100%;
+    
+    
+}
+
+.back__img img{
+    position: fixed;
+    width: 100%;
+    top:-100px;
+ 
+}
+
+.container{
+    position: relative;
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 550px;
+    background: var(--white);
+    margin-block: 4rem;
+    border-radius: .75em;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.faq__page{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    padding: 3rem 2rem 3rem 2rem;
+   
+}
+.page__title{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    padding-bottom: 2rem;
+    gap: 1.5rem;
+}
+
+.page__title h1{
+    font-size: 3rem;
+    color: var(--Darkpurple);
+}
+h2{
+    color: var(--Darkpurple);
+    
+}
+p{
+    color: var(--Grayishpurple);
+    padding-top: 1rem;
+    position: absolute;
+    
+    width: 100%;
+}
+
+.page__hero{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.question__faqs{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    border: 0px 1px solid black;
+}
+.break{
+    width: 100%;
+    height: 1px;
+    border: .5px solid var(--Lightpink);
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.q__img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;        
+}
+h2:hover{
+    cursor: pointer;
+    color: rgb(196, 17, 196);
+}
+.q__img img:hover{
+    cursor: pointer;
+}
+
+#img1{
+    display: block;
+}
+#img1.inactive{
+    display: none;
+}
+
+#img2{
+    display: none;
+}
+
+#img2.active{
+    display: block;
+}
+
+#img3{
+    display: block;
+}
+#img3.inactive{
+    display: none;
+}
+
+#img4{
+    display: none;
+}
+
+#img4.active{
+    display: block;
+}
+#img5{
+    display: block;
+}
+#img5.inactive{
+    display: none;
+}
+
+#img6{
+    display: none;
+}
+
+#img6.active{
+    display: block;
+}
+#img7{
+    display: block;
+}
+#img7.inactive{
+    display: none;
+}
+
+#img8{
+    display: none;
+}
+
+#img8.active{
+    display: block;
+}
+
+.more_1{
+    transform: scaleY(0);
+}
+
+.more_1.active{
+    transform: scaleY(1);
+    padding-bottom: 6rem;
+}
+.more_2{
+    transform: scaleY(0);
+
+}
+.more_2.active{
+    transform: scaleY(1);
+    padding-bottom: 5rem;
+
+}
+.more_3{
+    transform: scaleY(0);
+
+}
+
+.more_3.active{
+    transform: scaleY(1);
+    padding-bottom: 5rem;
+
+}
+.more_4{
+   transform: scaleY(0);
+    
+}
+.more_4.active{
+    transform: scaleY(1);
+    padding-bottom: 5rem;
+
+}
+
+@media screen and (max-width: 1440px) {
+    
+    .container{
+        
+        position: relative;
+        display: grid;
+        place-items: center;
+        justify-content: center;
+        width: 100%;
+        max-width: 550px;
+        background: var(--white);
+        margin-block: 4rem;
+        border-radius: .75em;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+    }
+    
+    .faq__page{
+        display: flex;
+        flex-direction: column;
+        width: 550px;
+        padding: 2rem 2rem 2rem 2rem;
+       
+    }
+       
+}
+
+@media screen and (max-width:375px) {
+    #background1{display:none;}
+    #background2{display:block;}
+
+    .back__img{
+        display: block;
+        height: 70px;
+        width: 100%;  
+    }
+    
+    .back__img img{
+        position: fixed;
+        width: 100%;       
+        top:0;    
+    }
+    .container{
+                
+        max-width: 330px;
+        border-radius: .55em;
+    }
+    .faq__page{
+        display: flex;
+        flex-direction: column;
+        padding: 1.5rem;
+    }
+    .page__title{
+        padding-bottom: 1.5rem;
+        
+    }
+    
+    .page__title h1{
+        font-size: 2.1rem;
+        color: var(--Darkpurple);
+    }
+    
+    .title__img img{
+        width: 27px;
+    }
+    .question__faqs h2{
+        padding-right: 40px;
+    }
+    .more_1.active{
+        padding-bottom: 9.5rem;
+    }
+    .more_2.active{
+        padding-bottom: 7.5rem;
+    }
+    .more_3.active{
+        padding-bottom: 7rem;
+    }
+    .more_4.active{
+        padding-bottom: 8.5rem;
+    }
+    
+}
