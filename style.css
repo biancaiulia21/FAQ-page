@@ -260,7 +260,8 @@ h2:hover{
         height: 100vw;
     }
     .attribution{
-        display: none;      
+        display: none;   
+        visibility : hidden;
     }
     .back__img{
         display: block;
