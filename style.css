@@ -259,6 +259,9 @@ h2:hover{
     body{
         height: 100vw;
     }
+    .attribution{
+        display: none;      
+    }
     .back__img{
         display: block;
         height: 100%;
